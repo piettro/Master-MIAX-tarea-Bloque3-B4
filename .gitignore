@@ -1,0 +1,35 @@
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Generated artefacts that are large or reproducible on demand.
+# Tables, figures and loss histories in outputs/ ARE versioned: the brief
+# requires the results in the repository.
+outputs/predictions/
+outputs/run.log
+outputs_quick/
+
+# data/raw/close_prices.parquet (~2 MB) is intentionally versioned: Yahoo
+# Finance revises history, so the snapshot is what makes runs reproducible.
+
+# IDEs and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+materials/
+professor_solutions/
+portfolio/

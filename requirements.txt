@@ -1,0 +1,29 @@
+# Direct dependencies, pinned to the versions this project was verified
+# against (Python 3.10, CPU, Windows 11). Transitive dependencies are left
+# to pip so the same file installs on Linux and macOS, where TensorFlow
+# ships different platform wheels.
+
+# Numerics and data
+numpy==1.26.4
+pandas==2.2.3
+pyarrow==19.0.1
+scipy==1.15.3
+
+# Statistics (ADF test for fractional differentiation)
+statsmodels==0.14.4
+
+# Machine learning
+scikit-learn==1.6.1
+tensorflow==2.16.2
+keras==3.12.4
+
+# Data download (only used with --refresh-data or a missing snapshot)
+yfinance==0.2.54
+
+# Reporting
+matplotlib==3.10.1
+tabulate==0.9.0
+
+# Quality checks
+pytest==8.3.5
+flake8==7.1.2

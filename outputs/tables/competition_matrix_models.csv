@@ -1,0 +1,5 @@
+V \ H,1,5,30,90
+5,mlp_deep,historical_mean,mlp_deep,historical_mean
+10,historical_mean,historical_mean,mlp_deep,historical_mean
+30,historical_mean,historical_mean,mlp_deep,historical_mean
+90,historical_mean,historical_mean,historical_mean,historical_mean
